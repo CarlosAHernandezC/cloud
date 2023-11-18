@@ -8,7 +8,7 @@ directorio_trabajo = 'C:/Users/ch_us/OneDrive - Universidad San Sebastian/Diplom
 os.makedirs(directorio_trabajo, exist_ok=True)
 
 # Ruta completa al archivo
-ruta_archivo = os.path.join(directorio_trabajo, 'numeros.txt')
+ruta_archivo = os.path.join(directorio_trabajo, 'numeros2.txt')
 
 with open(ruta_archivo, 'w') as file:
     for i in range(1, 100001):
